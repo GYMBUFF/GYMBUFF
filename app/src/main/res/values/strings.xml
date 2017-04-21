@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GymBuff</string>
+    <string name="workout_diary">Workout Diary</string>
+    <string name="progress_photos">Progress Photos</string>
+    <string name="diet_diary">Diet Diary</string>
+    <string name="start_workout">Start Workout</string>
+    <string name="start_run_walk">Start Run/Walk</string>
+    <string name="create_workout">Create Workout</string>
+    <string name="workout_name">Workout Name</string>
+</resources>

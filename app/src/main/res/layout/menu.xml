@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.gymbuffapp.gymbuff.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:backgroundTint="#DDDDDD"
+        android:id="@+id/relativeLayout2"
+        android:background="#DDDDDD"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            app:srcCompat="@drawable/logo2"
+            android:id="@+id/imageView5"
+            android:layout_alignParentTop="true"
+            android:layout_height="wrap_content"
+            android:paddingRight="15dp" />
+
+        <ImageView
+            app:srcCompat="@drawable/settings3"
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:paddingStart="300dp"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:contextClickable="false"
+            android:onClick="settingsOnClick"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3399ff"
+        android:layout_below="@+id/relativeLayout2"
+        android:layout_alignParentStart="true"
+        android:paddingBottom="10dp"
+        android:id = "@+id/relativeLayout6">
+
+        <TextView
+            android:text="@string/create_workout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/imageButton17"
+            android:layout_alignStart="@+id/textView" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cog2"
+            android:id="@+id/imageButton15"
+            android:layout_alignTop="@+id/imageButton14"
+            android:layout_centerHorizontal="true"
+            android:onClick="startRun" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cog2"
+            android:layout_marginEnd="23dp"
+            android:id="@+id/imageButton16"
+            android:layout_alignTop="@+id/imageButton15"
+            android:layout_alignParentEnd="true"
+            android:onClick="dietDiary" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cog2"
+            android:layout_marginStart="23dp"
+            android:layout_marginTop="9dp"
+            android:id="@+id/imageButton14"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:onClick="startWorkout"/>
+
+        <TextView
+            android:text="@string/start_run_walk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="69dp"
+            android:id="@+id/textView2"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:text="@string/start_workout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textColor="#FFFFFF"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="12dp"
+            android:textSize="15sp"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:text="@string/diet_diary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:layout_alignBaseline="@+id/textView2"
+            android:layout_alignBottom="@+id/textView2"
+            android:layout_alignEnd="@+id/imageButton16"
+            android:layout_alignStart="@+id/imageButton16" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cog2"
+            android:id="@+id/imageButton17"
+            android:layout_below="@+id/textView"
+            android:layout_alignStart="@+id/imageButton14"
+            android:layout_marginTop="17dp"
+            android:onClick="createWorkout"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cog2"
+            android:id="@+id/imageButton18"
+            android:layout_alignTop="@+id/imageButton17"
+            android:layout_centerHorizontal="true"
+            android:onClick="progressPhoto" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/cog2"
+            android:id="@+id/imageButton19"
+            android:layout_alignTop="@+id/imageButton18"
+            android:layout_alignStart="@+id/textView3"
+            android:onClick="workoutDiary" />
+
+        <TextView
+            android:text="@string/progress_photos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView7"
+            android:textColor="#FFFFFF"
+            android:layout_below="@+id/imageButton18"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:text="@string/workout_diary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView5"
+            android:textColor="#FFFFFF"
+            android:layout_marginEnd="12dp"
+            android:layout_below="@+id/imageButton19"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="#DDDDDD"
+        android:id="@+id/relativeLayout30"
+        android:layout_below="@+id/relativeLayout6"
+        android:layout_alignParentStart="true"
+        android:layout_height="45dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/buff"
+            android:id="@+id/imageView9"
+            android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+</RelativeLayout>
