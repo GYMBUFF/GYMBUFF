@@ -37,7 +37,8 @@
                 android:scaleY="2"
                 android:layout_marginRight="20dp"
                 android:background="?attr/homeAsUpIndicator"
-                android:rotation="180" />
+                android:rotation="180"
+                android:onClick="nextDay" />
 
         </RelativeLayout>
 

@@ -7,4 +7,10 @@
     <string name="start_run_walk">Start Run/Walk</string>
     <string name="create_workout">Create Workout</string>
     <string name="workout_name">Workout Name</string>
+    <string name="arms">Arms</string>
+    <string name="chest">Chest</string>
+    <string name="legs">Legs</string>
+    <string name="abs">Abs</string>
+    <string name="shoulders">Shoulders</string>
+    <string name="back">Back</string>
 </resources>
