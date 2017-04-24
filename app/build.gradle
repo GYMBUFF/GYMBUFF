@@ -17,6 +17,10 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+    dependencies{
+        compile fileTree(include: ['*.jar'], dir: 'libs')
+        compile 'com.google.code.gson:gson:2.6.2'
+    }
     aaptOptions.cruncherEnabled = false
     aaptOptions.useNewCruncher = false
 }
