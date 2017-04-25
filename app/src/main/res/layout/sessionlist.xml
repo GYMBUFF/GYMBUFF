@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="136dp"
+        android:layout_weight="0.06"
+        android:background="#9966ff">
+
+        <TextView
+            android:text="TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView21"
+            android:textSize="24sp"
+            android:textColor="#FFFFFF"
+            android:paddingTop="10dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/div1"
+            android:id="@+id/imageView4"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true" />
+
+        <Button
+            android:text="View Exercises"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button3"
+            android:background="@android:drawable/bottom_bar"
+            android:layout_marginLeft="10dp"
+            android:layout_above="@+id/imageView4"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="200dp"
+            android:onClick="viewExercises"/>
+
+        <Button
+            android:text="Start Session"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button4"
+            android:background="@android:drawable/bottom_bar"
+            android:layout_marginRight="10dp"
+            android:layout_alignBaseline="@+id/button3"
+            android:layout_alignBottom="@+id/button3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginLeft="200dp"
+            android:onClick="startSession"/>
+    </RelativeLayout>
+</LinearLayout>

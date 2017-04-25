@@ -6,7 +6,8 @@
     android:layout_height="match_parent">
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="22dp">
+        android:layout_height="22dp"
+        android:background="#5eabcd">
 
         <ImageView
             android:layout_width="wrap_content"
@@ -20,10 +21,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/textView20"
-        android:textSize="20sp" />
+        android:textSize="20sp"
+        android:background="#5eabcd"
+        android:textStyle="normal|bold" />
     <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="22dp">
+        android:layout_height="22dp"
+        android:background="#5eabcd">
 
         <ImageView
             android:layout_width="wrap_content"
