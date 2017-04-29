@@ -3,18 +3,13 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:drawable/picture_frame">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="22dp"
-        android:background="#5eabcd">
+        android:background="@android:drawable/editbox_dropdown_dark_frame">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/divider1"
-            android:layout_centerVertical="true"
-            android:id="@+id/imageView3" />
     </RelativeLayout>
     <TextView
         android:text="TextView"
@@ -22,18 +17,13 @@
         android:layout_height="wrap_content"
         android:id="@+id/textView20"
         android:textSize="20sp"
-        android:background="#5eabcd"
-        android:textStyle="normal|bold" />
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        android:textStyle="normal|bold"
+        android:textColor="#ffffff" />
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="22dp"
-        android:background="#5eabcd">
+        android:background="@android:drawable/editbox_dropdown_dark_frame">
 
-        <ImageView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/divider1"
-            android:layout_centerVertical="true"
-            android:id="@+id/imageView6" />
     </RelativeLayout>
 </LinearLayout>

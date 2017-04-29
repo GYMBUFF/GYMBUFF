@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@android:drawable/picture_frame"
+    android:backgroundTint="#b0c4e5">
 
     <TextView
         android:text="5"
@@ -31,5 +34,49 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:id="@+id/textView25"
-        android:textSize="24sp" />
+        android:textSize="24sp"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:id="@+id/textView28"
+        android:textStyle="normal|bold"
+        android:textSize="40sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView27"
+        android:textSize="50sp"
+        android:paddingLeft="10dp"
+        android:layout_marginBottom="45dp"
+        android:layout_above="@+id/textView28"
+        android:layout_alignParentStart="true"
+        android:textAlignment="center" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView26"
+        android:textSize="50sp"
+        android:textAlignment="center"
+        android:paddingLeft="10dp"
+        android:layout_above="@+id/textView27"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView23"
+        android:layout_marginTop="53dp"
+        android:id="@+id/textView31"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_green_light"
+        android:textSize="22sp"
+        android:textStyle="normal|bold" />
 </RelativeLayout>

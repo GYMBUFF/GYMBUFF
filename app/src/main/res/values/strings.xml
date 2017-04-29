@@ -13,4 +13,6 @@
     <string name="abs">Abs</string>
     <string name="shoulders">Shoulders</string>
     <string name="back">Back</string>
+    <string name="ntTitle">Food Diary Reminder</string>
+    <string name="ntText">Dont forget to log your meals for today!</string>
 </resources>

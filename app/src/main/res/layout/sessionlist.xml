@@ -9,7 +9,8 @@
         android:layout_width="match_parent"
         android:layout_height="136dp"
         android:layout_weight="0.06"
-        android:background="#9966ff">
+        android:background="@android:drawable/picture_frame"
+        android:backgroundTint="#262171">
 
         <TextView
             android:text="TextView"

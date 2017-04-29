@@ -21,22 +21,7 @@
             app:srcCompat="@drawable/logo2"
             android:id="@+id/imageView5"
             android:layout_alignParentTop="true"
-            android:layout_height="wrap_content"
-            android:paddingRight="15dp" />
-
-        <ImageView
-            app:srcCompat="@drawable/settings3"
-            android:id="@+id/imageView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:clickable="true"
-            android:paddingStart="300dp"
-            android:paddingBottom="20dp"
-            android:paddingTop="20dp"
-            android:contextClickable="false"
-            android:onClick="settingsOnClick"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true" />
+            android:layout_height="wrap_content" />
 
     </RelativeLayout>
 
@@ -56,37 +41,39 @@
             android:id="@+id/textView6"
             android:textColor="#FFFFFF"
             android:layout_below="@+id/imageButton17"
-            android:layout_alignStart="@+id/textView" />
+            android:layout_marginLeft="10dp" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cog2"
+            app:srcCompat="@drawable/run"
             android:id="@+id/imageButton15"
             android:layout_alignTop="@+id/imageButton14"
-            android:layout_centerHorizontal="true"
-            android:onClick="startRun" />
+            android:onClick="startRun"
+            android:layout_above="@+id/textView"
+            android:layout_alignStart="@+id/textView2"
+            android:layout_alignEnd="@+id/textView2" />
 
-        <ImageButton
+        <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cog2"
+            app:srcCompat="@drawable/food"
             android:layout_marginEnd="23dp"
             android:id="@+id/imageButton16"
             android:layout_alignTop="@+id/imageButton15"
             android:layout_alignParentEnd="true"
-            android:onClick="dietDiary" />
+            android:onClick="dietDiary"
+            android:layout_above="@+id/textView3"
+            android:layout_alignStart="@+id/textView5" />
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cog2"
+        <ImageView
+            app:srcCompat="@drawable/workout"
             android:layout_marginStart="23dp"
             android:layout_marginTop="9dp"
             android:id="@+id/imageButton14"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentStart="true"
-            android:onClick="startWorkout"/>
+            android:onClick="startWorkout"
+            android:layout_width="70dp"
+            android:layout_height="70dp" />
 
         <TextView
             android:text="@string/start_run_walk"
@@ -122,33 +109,35 @@
             android:layout_alignEnd="@+id/imageButton16"
             android:layout_alignStart="@+id/imageButton16" />
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cog2"
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/createworkout"
             android:id="@+id/imageButton17"
             android:layout_below="@+id/textView"
             android:layout_alignStart="@+id/imageButton14"
             android:layout_marginTop="17dp"
-            android:onClick="createWorkout"/>
+            android:onClick="createWorkout"
+            android:layout_marginLeft="10dp" />
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cog2"
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:srcCompat="@drawable/camera"
             android:id="@+id/imageButton18"
             android:layout_alignTop="@+id/imageButton17"
             android:layout_centerHorizontal="true"
             android:onClick="progressPhoto" />
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            app:srcCompat="@drawable/cog2"
+        <ImageView
+            android:layout_width="45dp"
+            app:srcCompat="@drawable/book"
             android:id="@+id/imageButton19"
             android:layout_alignTop="@+id/imageButton18"
             android:layout_alignStart="@+id/textView3"
-            android:onClick="workoutDiary" />
+            android:onClick="workoutDiary"
+            android:layout_alignEnd="@+id/textView3"
+            android:layout_height="45dp" />
 
         <TextView
             android:text="@string/progress_photos"
@@ -185,6 +174,27 @@
             app:srcCompat="@drawable/buff"
             android:id="@+id/imageView9"
             android:layout_alignParentStart="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relativeLayout30"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView8" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+        </RelativeLayout>
     </RelativeLayout>
 
 </RelativeLayout>
