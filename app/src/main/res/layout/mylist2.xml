@@ -23,5 +23,6 @@
         android:layout_marginLeft="15dp"
         android:layout_weight="0.93"
         android:layout_marginTop="8dp"
-        android:onClick="listChoice" />
+        android:onClick="listChoice"
+        android:background="@android:drawable/btn_default" />
 </LinearLayout>

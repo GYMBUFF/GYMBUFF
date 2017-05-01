@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#5c3eee">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        app:srcCompat="@drawable/logo2"
+        android:id="@+id/imageView14" />
+
+    <Button
+        android:text="Workouts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5"
+        android:layout_weight="0.49"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:background="@android:drawable/bottom_bar"
+        android:layout_margin="10dp"
+        android:onClick="workouts" />
+
+    <Button
+        android:text="Runs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button7"
+        android:layout_weight="0.51"
+        android:textSize="30sp"
+        android:textColor="#ffffff"
+        android:background="@android:drawable/bottom_bar"
+        android:layout_margin="10dp"
+        android:onClick="runs" />
+</LinearLayout>
